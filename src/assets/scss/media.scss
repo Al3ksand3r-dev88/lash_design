@@ -1,0 +1,87 @@
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    padding: 0 1rem;
+  }
+  .section.bg-gradient p {
+    width: 70%;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  .section a.btn-book-now {
+    width: 200px;
+  }
+  .section.grid {
+    gap: 1rem;
+    margin: auto;
+    display: grid;
+    max-width: 1024px;
+    grid-template-columns: repeat(2, 1fr);
+
+    .link-container {
+      margin: 2rem auto;
+      h2 {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+      }
+    }
+  }
+  .text-container form .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+      width: 49%;
+    }
+  }
+
+  .text-container form input[type="submit"] {
+    width: 200px;
+  }
+
+  .footer-container .line {
+    margin: 2rem auto;
+  }
+
+  .footer-container ul.link-list {
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 1rem;
+
+      a {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .footer-container ul.link-list,
+  .footer-container ul.contact-list {
+    text-align: center;
+    .line {
+      margin: 2rem auto;
+    }
+    i {
+      margin: 0 1rem;
+    }
+  }
+
+  .footer-container p.summary {
+    width: 55%;
+    margin: auto;
+  }
+
+  .chat-icon {
+    font-size: 1rem;
+
+    max-width: 200px;
+    right: 1rem;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section,
+  .grid {
+    padding: 0;
+  }
+}

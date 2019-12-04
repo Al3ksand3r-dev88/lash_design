@@ -1,0 +1,24 @@
+.chat-icon {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background: #fc9c75;
+  transition: all 1s ease-in-out;
+  transform: translateY(100%);
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  text-decoration: none;
+
+  i {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  &.show {
+    transform: translateY(0);
+  }
+}
